@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.yellow {
+    color: #ece800;
+}
+
+.welcome-wrapper {
+    height: 100vh;
+}
+
+.navigation {
+    height: 15vh;
+    background: #c4c11d;
+    color: #fff;
+}
+
+.hamburguer {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 80%;
+    top: 22.5%;
+}
+
+.hamburguer-slice {
+    width: 35px;
+    height: 5px;
+    background-color: #CCC;
+    margin: 6px 0;
+}
+
+.footer {
+    background: #1B242F;
+    color: #fff;
+}
