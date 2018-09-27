@@ -1,3 +1,10 @@
+.nav-bar {
+  background: rgba(0, 0, 0, 0.8);
+}
 
+.content-profile {
+  background: black;
+  color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
