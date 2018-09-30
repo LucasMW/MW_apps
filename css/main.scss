@@ -1,8 +1,73 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wh-twoh-twoh {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.padding-fourty-seventy {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
 .nav-bar {
+    font-family: 'Raleway', sans-serif;
     background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.hamburguer-wrapper {
+    background: transparent;
+    border: none;
+}
+
+.hamburguer {
+    color: white;
+    font-size: 1em;
+}
+
+.nav-bar-logo {
+    color: white;
+    font-size: 1em;
 }
 
 .content-profile {
     background: rgb(0, 0, 0);
     color: white;
+}
+
+.content-avatar {
+    border-radius: 50%;
+}
+
+.content-title {
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.content-subtitle {
+    font-size: 19px;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.spacing {
+    margin-bottom: 40px;
+}
+
+.app-header {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.app-desc {
+    color: rgb(142, 142, 147);
+    line-height: 20px;
+}
+
+.app-price {
+    font-size: 13px;
+    color: rgb(142, 142, 147);
 }
