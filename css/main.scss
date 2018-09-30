@@ -71,3 +71,47 @@
     font-size: 13px;
     color: rgb(142, 142, 147);
 }
+
+
+.footer {
+    background: #1B242F;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer, .footer a {
+    color: #fff;
+}
+
+.footer-link-box {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: #262F38;
+    transition: all 250ms ease;
+    border-radius: 10%;
+}
+
+.footer-link-box:hover {
+    background:  #e2d700;
+    box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+    transform: scale(0.9);
+}
+
+.footer-icon {
+    font-size: 1.6em;
+    padding: 25% 25% 25% 25%;
+
+}
+
+.footer-copyright {
+    margin-top: 35px;
+    color: #8F9AA7;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.footer-made:hover {
+    color: #e2d700;
+    text-decoration: none;
+}
