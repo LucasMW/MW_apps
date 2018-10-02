@@ -7,9 +7,8 @@
     max-height: 200px;
 }
 
-
-.padding-fourty-seventy {
-    padding-top: 40px;
+.content-wrapper {
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 
@@ -54,10 +53,6 @@
     line-height: 20px;
 }
 
-.spacing {
-    margin-bottom: 40px;
-}
-
 .app-header {
     font-weight: 600;
     font-size: 23px;
@@ -76,8 +71,6 @@
 
 .footer {
     background: #1B242F;
-    padding-top: 70px;
-    padding-bottom: 70px;
 }
 
 .footer, .footer a {
@@ -117,5 +110,9 @@
     text-decoration: none;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
+    .description-fix {
+        margin-left: -80px;
+        margin-right: 80px;
+    }
 }
