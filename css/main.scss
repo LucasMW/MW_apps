@@ -7,6 +7,7 @@
     max-height: 200px;
 }
 
+
 .padding-fourty-seventy {
     padding-top: 40px;
     padding-bottom: 70px;
@@ -114,4 +115,13 @@
 .footer-made:hover {
     color: #e2d700;
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .content-profile {
+        padding-left: 0;
+        margin-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+    }
 }

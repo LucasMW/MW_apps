@@ -114,4 +114,13 @@
   text-decoration: none;
 }
 
+@media (max-width: 767px) {
+  .content-profile {
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
